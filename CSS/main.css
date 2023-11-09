@@ -1,0 +1,171 @@
+.body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+    min-height: 100vh;
+    position: relative;
+}
+
+.logo {
+    width: 1%;
+
+    
+}   
+.logo img {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+
+
+}
+
+.content {
+    width: 100%;
+    text-align: left;
+    padding: 20px;
+
+  
+    
+}
+
+.title {
+    color: purple;
+    margin-left: 30%;
+    width: 500%;
+    height: 500%;
+    animation: fadeInRight 2s ease forwards; 
+
+}
+@keyframes fadeInRight {
+    to {
+        margin-left: 0; 
+    }
+}
+
+.subtitle {
+    color: rgb(1, 153, 203);
+    margin-left: 5%;
+
+}
+.image-row,
+.image-column {
+    display: flex;
+    flex-wrap: wrap;       
+    
+}
+
+.image-row img,
+.image-column img {
+    width: 10%;
+    
+   
+    
+}
+
+.logos {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.logos-column img {
+ width: 3%;
+ margin-left: 1%;
+ position: relative;
+    left: 60%; 
+   
+
+
+ 
+ 
+}
+.content p {
+text-align: left;
+margin-right: 70%;
+column-gap: 60px;
+}
+.newsletter-button {
+    width: 20%;
+    margin-left: 15%;
+    margin-top: -5%;
+    background-color: lightgray;
+    border: 1px black;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;      
+}
+.order-button {
+    width: 15%;
+    position: absolute;
+    bottom: 100px;
+    margin-left: 50%;
+    color:purple;
+    background-color: rgb(247, 243, 243);
+    border: 1px black;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s;
+        
+}
+
+.order-button:hover {
+    background-color: purple; 
+    color: white;    
+   
+}
+
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 12%;
+    background-color: white;
+    padding: 10px;
+    color: black;
+}
+.product{
+    width: 10%;
+    position: absolute;
+    top: 100px;
+    margin-left: 50%;
+    color:purple;
+    background-color: rgb(247, 243, 243);
+    border: 1px black;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+.product:hover {
+    background-color: purple; 
+    color: white;    
+}
+.contact{
+    width: 10%;
+    position: absolute;
+    top: 100px;
+    margin-left: 80%;
+    color:purple;
+    background-color: rgb(247, 243, 243);
+    border: 1px black;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+.contact:hover {
+    background-color: purple; 
+    color: white;    
+}
